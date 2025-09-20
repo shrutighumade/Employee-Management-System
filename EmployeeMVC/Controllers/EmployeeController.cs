@@ -22,7 +22,7 @@ namespace EmployeeMVC.Controllers
         public async Task<IActionResult> Create(Employee emp)
         {
             if (ModelState.IsValid)
-            
+
             {
                 await _service.CreateAsync(emp);
                 return RedirectToAction(nameof(Index));
@@ -54,7 +54,7 @@ namespace EmployeeMVC.Controllers
             var emp = await _service.GetByIdAsync(id);
             return View(emp);
         }
-        [HttpPost, ActionName("Delete")]
+        [HttpPost, ActionName("Delete")] // deleted
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             await _service.DeleteAsync(id);
