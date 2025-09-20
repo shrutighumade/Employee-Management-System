@@ -54,7 +54,7 @@ namespace EmployeeMVC.Controllers
             var emp = await _service.GetByIdAsync(id);
             return View(emp);
         }
-        [HttpPost, ActionName("Delete")] // deleted
+        [HttpPost, ActionName("Delete")] 
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             await _service.DeleteAsync(id);
