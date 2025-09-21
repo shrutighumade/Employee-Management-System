@@ -8,4 +8,5 @@ EmployeeMVC
 |-- Models
 |-- Services
 |-- Views
+|-- wwwroot
 ```
