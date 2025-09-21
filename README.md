@@ -4,5 +4,6 @@
 
 ```bash
 EmployeeMVC
-|-- Controllers
+|-- Controller
+|-- Models
 ```
