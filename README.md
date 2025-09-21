@@ -7,4 +7,5 @@ EmployeeMVC
 |-- Controller
 |-- Models
 |-- Services
+|-- Views
 ```
